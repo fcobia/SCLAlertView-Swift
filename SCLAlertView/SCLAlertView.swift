@@ -514,8 +514,8 @@ class SCLAlertViewStyleKit : NSObject {
         crossShapePath.addLineToPoint(CGPointMake(70, 10))
         crossShapePath.moveToPoint(CGPointMake(10, 10))
         crossShapePath.addLineToPoint(CGPointMake(70, 70))
-        crossShapePath.lineCapStyle = kCGLineCapRound;
-        crossShapePath.lineJoinStyle = kCGLineJoinRound;
+        crossShapePath.lineCapStyle = CGLineCap.Round
+        crossShapePath.lineJoinStyle = CGLineJoin.Round
         UIColor.whiteColor().setStroke()
         crossShapePath.lineWidth = 14
         crossShapePath.stroke()
